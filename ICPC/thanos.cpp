@@ -16,7 +16,7 @@ int main(){
     }
 
     int r = count(arr, arr + n, m); 
-    cout << (r <= n ? "Alice": "Bob") << "\n";
+    cout << (r <= n/2 ? "Alice": "Bob") << "\n";
 
     return 0;
 
